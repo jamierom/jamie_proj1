@@ -178,3 +178,28 @@ p {
     color: #e5a8b0;
     margin-top: 15px;
 }
+
+/* footer */
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    background-color: #25191e;
+}
+
+/* desktop view */
+@media (min-width: 768px) {
+    .hero-grid {
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .cards-gallery {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .content-grid {
+        grid-template-columns: 3fr 1fr;
+    }
+}
