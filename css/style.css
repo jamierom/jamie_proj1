@@ -172,6 +172,7 @@ p {
 
 .story-file {
     background-color: #39232c;
+    align-self: start;
 }
 
 .story-file h3 {
