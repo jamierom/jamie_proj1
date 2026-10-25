@@ -29,3 +29,19 @@ body {
     color: white;
     text-decoration: none;
 }
+
+.nav-links, .footer-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+a {
+    color: #e5a8b0;
+}
+
+.nav-links a, .footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
